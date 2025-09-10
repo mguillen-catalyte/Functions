@@ -1,6 +1,6 @@
 def send_invites(): 
     print("Send out invitations to all the guests")
-    
+
 def clean_up_house(): 
     print("Clean up entire house and organize")
 
@@ -27,3 +27,18 @@ def set_up_food():
 
 def play_music():
     print("Play music and get ready for guests")
+
+
+def host_party(): 
+    send_invites()
+    clean_up_house()
+    grocery_shopping()
+    buy_decorations()
+    set_up_tables()
+    decorate_house()
+    make_food()
+    cleanup_kitchen()
+    set_up_food()
+    play_music()
+
+host_party()
